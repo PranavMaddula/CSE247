@@ -1,0 +1,83 @@
+Your TA's name:
+
+Students in your studio group:
+
+    Name        WUSTLKey (e.g. "jbuhler")
+	
+1. Pranav Maddula 	pranav.maddula
+2. Anthony Wu		atwu
+3.
+4.
+5.
+6.
+
+Below each question, type in your short, to-the-point answers.
+
+Question A1:
+The lest significant bits are determined by the last chrater in the string provided
+
+Question A2:
+We can hash 4 characters, and after that we start to loose data
+
+Question A3:
+[[(0*128)+48]*128]+49]*128]+50]*128]*51] = 101472563
+h(s) = c1 + c2*128 + c3*128^2 + c4*128^4
+
+Question B1:
+We know:
+a = cq(1) + r(1) where 0 <= r(1) < c this means that a mod(c) = r(1)
+b = cq(2) + r(2) where 0 <= r(2) < c this means that b mod(c) = r(2)
+Thus:
+(a * b) mod(c) = ((cq(1) + r(1)) * (cq(2) + r(2))) mod(c)
+(a * b) mod(c) = (c^(2)q(1)q(2)) + cq(2)r(1) + cq(1)r(2) + r(1)r2(2)) mod(c)
+Simplify as we know that we are doing modulo c we can remove all of the terms that have a c in them:
+(a * b) mod(c) = (r(1) * r(2)) mod(c)
+
+Question B2:
+h(s) mod m = (c1 mod 127) + (c2 mod 127 * 128 mod 127) + (c3 mod 127 * 128 mod 127) + (c4 mod 127 * 128 mod 127)
+We know that 128 mod 127 = 1, thus simplifying
+(c1 + c2 + c3 + c4) mod 127
+
+As ascii values are bounded by 127, modding them by 127 will make them return their own values -> thus the mod values are wrong
+
+Question B3:
+"AAAB","AABA","ABAA","BAAA","AAB@"
+
+Question B4:
+1069594
+
+Question B5:
+We could insert a lot of strings with equivilent hashes that we can use to force the users system search the hash table to find the proper string, brining the system to a crawl
+
+Question B6:
+h(s) mod m = (c1 mod 131) + (c2 mod 131 * 128 mod 131) + (c3 mod 131 * 128 mod 131) + (c4 mod 131 * 128 mod 131)
+(c1 + 128^2 *c2 + 128^2 *c3 + 128^3*c4) mod 131 -> (c1 mod 131) + 128(c2 mod 131) + 9(c3 mod 131) + 104(c4 mod 131)
+
+Question B7:
+36, 36, 36, 106
+
+Question B8:
+
+Question C1:
+
+Question C2:
+
+Question C3:
+
+Question C4:
+
+Question C5:
+
+Question D1:
+
+Question D2:
+
+Question D3:
+
+Question D4:
+
+Question D5:
+
+Question D6:
+
+Question D7:

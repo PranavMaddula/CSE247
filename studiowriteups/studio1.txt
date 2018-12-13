@@ -1,0 +1,54 @@
+Your TA's name:
+Noah
+
+Students in your studio group:
+
+    Name        WUSTLKey (e.g. "jbuhler")
+	
+1. Pranav Maddula pranav.maddula
+2. Anthony Wu	  atwu
+3.
+4.
+5.
+6.
+
+Below each question, type in your short, to-the-point answers.
+
+Question A1:
+
+- ProbA		n-1
+
+- ProbB		n*(n-1)/2
+
+- ProbC		n*(n+1)/2
+
+- ProbD		(n(n+1)*(2n+1))/6
+
+- ProbE		((n(n+1)*(2n+1))/6) - n
+
+Question B1:
+
+1.  c = 1          n0 = 1
+2.  c = 1          n0 = 1
+3.  c = 1          n0 = 1 
+
+Question C1:
+
+1.	5000 = O(n^2),	 c = 50 and n0 = 10
+2.	an+b = O(n),     c = 1, n0 = 1 if a&b>0
+
+Question D1:
+
+1. Not theta, as the left is n^2 and the right is a constant. Thus, the left of function 1 is not theta of the right
+2. Theta, as the right side of is n, and the largest power on the left side is n as well. Thus, the left of function 2 is theta of the right
+
+
+Question E1: 
+n^1.5 grows faster than nlog(n)
+n^1000 grows faster than 1.01^n
+nlog2(n) grows faster than nlog3(n)
+
+Question E2:
+If you use the value 4 for c, you find that O(n) is true. This is because every time we reach the value 2^(n+1)
+we need to copy 2^n and everything before that segment, effectively copying 2(2^(n+1)), which ends up being
+4n.

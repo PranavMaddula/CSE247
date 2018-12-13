@@ -1,0 +1,85 @@
+Your TA's name: Connor
+
+Students in your studio group:
+
+    Name        WUSTLKey (e.g. "jbuhler")
+	
+1. Pranav Maddula	pranav.maddula
+2. Anthony Wu		atwu
+3.
+4.
+5.
+6.
+
+Below each question, type in your short, to-the-point answers.
+
+Question A1:
+F: 1
+G: 1
+B: 2
+D: 2
+A: 3
+C: 3
+
+
+Question A2:
+All edges but B->D, C->A, and A->B
+
+Question A3:
+A:0,7
+B:1,6
+C:3,3
+D:5,5
+
+Question B1:
+No, there is no ordering as there are multiple cyclic portions to the graph presented
+
+Question B2:
+As V finishes first, and V is a leaf node of U, the search can then traverse up the tree to complete U. 
+
+Question B3:
+V finishes before U, as V must be traversed before U is finished
+
+Question B4:
+If V is finished before U is even started, V is finished before U
+
+Question B5:
+No, as V is a leaf of U, V cannot be in progress with U being traversed
+
+Question B6:
+As based on the conditions above, we know that V must be travered before U
+
+Question C1:
+ABECDF
+
+Question C2:
+ACDBEF
+ABCEDF
+ABECDF
+
+Question C3:
+
+
+Question C4:
+A leaf vertex, and for our example that will be vertex F
+
+Question C5:
+Finishing time will be faster than that of any other element, as it will be done in 1 time.
+
+Question C6:
+Start it at the last element, and move it back one element each time
+Start at Vn and then reexecute at Vn-1 ... untill out of nodes
+
+Question C7:
+F,E,B,D,C,A -> A,B,E,C,D,A
+
+Question D1:
+This is a valid topological order as if there is no directed edge between a and b, b cannot come before a
+If there is no edge that exists from Vi to Vi+1, then there could be a path between the two, however as there are no elements between Vi and Vi+1, there cannot be an inderect path between the two.
+
+Question D2:
+If there is a direct path that has a length of V-1 edges, it must have a unique topological edges as there is no other or more effecent way to connect the nodes together
+
+Question D3:
+
+Done!

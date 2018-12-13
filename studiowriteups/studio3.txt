@@ -1,0 +1,49 @@
+Your TA's name:
+
+Students in your studio group:
+
+    Name        WUSTLKey (e.g. "jbuhler")
+	
+1. Pranav Maddula   pranav.maddula
+2.
+3.
+4.
+5.
+6.
+
+Below each question, type in your short, to-the-point answers.
+
+Question A1:
+Int, Char, String, Double, etc.
+
+Question A2:
+a) negative int
+b) posative int
+c) negative int
+d) 0
+Question A3:
+Class: boolean
+1) if it returns zero, then they are equal
+2) if it returns a positive number, then a is true and b is false
+3) if it returns a negative number, then a is false and b is true
+Question B1:
+End)	 O(1)
+Start)	 O(1)
+Middle)	 O(n)	
+
+Question B2:
+isEmpty)	 O(1)
+insert)	 	 O(1)
+extractMin)	 O(n)
+
+Question C1:
+End)	 O(n)
+Start)	 O(n)
+Middle)	 O(n)
+
+Question C2:
+isEmpty)	 O(1)
+insert)	 	 O(n)
+extractMin)	 O(n)
+
+Question C3:

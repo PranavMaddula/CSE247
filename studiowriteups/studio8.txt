@@ -1,0 +1,71 @@
+Your TA's name:
+
+Students in your studio group:
+
+    Name        WUSTLKey (e.g. "jbuhler")
+	
+1. Pranav Maddula	pranav.maddula
+2. Anthony Wu		atwu
+3.
+4.
+5.
+6.
+
+Below each question, type in your short, to-the-point answers.
+
+Question A1:
+This function computes a unique hashcode for each and every object as each object has a unique memory address, every hash will be unique, even if the data in the object is the same
+
+Question A2:
+this.x = that.x and this.y = that.y
+
+Question A3:
+hashcode = x+y
+
+Question A4:
+Nope, for example the point (2,2) maps to the same hashcode as (3,1)
+
+Question A5:
+The most simple would once again be x+y. However, there are a great many cases of overlap for this has function that would render is all but useless in any real use case. This is the case as there is very little diversity in the varying values of hashes
+
+Question B1:
+32 bits. as each value (r,g,b,a) need one byte (8bits), so 4*8 is 32 bits
+
+Question B2:
+Yes, as the total number of combinations of the color values are representable in 32 bits, a 32 bit int will be enough to uniquely store all possible hash values
+
+Question B3:
+There is roughly the same number of values in each bin. The max 12 185, and the min is 129, leading to an maximum computed difference of 56
+
+Question B4:
+The uniformity is very good, and it is better than what was observed in the previous method. We have a max of 180, and a min of 135, yeilding a maximum difference of 45.
+This variation results in certain bins taking longer than others to run, as there are more values in certain bins than other. However, the difference is relatively minor as the variation is relatively minor
+
+Question C1:
+This results in a skewed normal distribution which is very different from the uniform distribuiton we saw earlier
+
+Question C2:
+This yeilds a more normal distribution, however it is wider than a usual normal distribuiton. However, it is still not as uniform as the previous case
+We likely could not have predicted this outcome
+
+Question C3:
+There is a larger performance hit that is taken with larger values of M, as the data is far less evenly spread out, there will be certain bins with significantly more or less than others.
+
+Question D1:
+For 2^k, the number of bits that matter is 32-k bits
+This can be a good choice depending on the situation, as it can cause bits to potentially overflow, however, it may have its uses when only certain bits need to be taken into account
+
+Question D2:
+Yes, the histogram looks significantly more uniform than before, and is approaching the levels of the previous instances
+
+Question D3:
+This has an intersting distribution that has valleys and peaks that are regulary spaced, skipping a in powers of 2
+
+Question D4:
+This will yeild the same values as h*a and h'*a are the same
+
+Question D5:
+Yes, but it is far less likely to if the multiplied value is small
+
+Question D6:
+N/A

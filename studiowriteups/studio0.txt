@@ -1,0 +1,55 @@
+Your TA's name:
+
+Students in your studio group:
+
+    Name        WUSTLKey (e.g. "jbuhler")
+	
+1. Pranav Maddula 	pranav.maddula
+2.
+3.
+4.
+5.
+6.
+
+Below each question, type in your short, to-the-point answers.
+
+Question PS1: For the linear timing example, we see that as n increases the time required to complete the code(sum) increases proportionally to the number of n(itterations) that are completed.
+For the quadratic example, we see that as n increases the time required to compute the function increases proportionally to the square of n, as every summation of n has to be run again for each value of n.
+We also see that the quadratic function produces a smoother graph, while the linear function produces a more rough looking graph, that is less even
+
+Question PS2: Having only one tick counter function that is located at the core of the execution string allows for the timing of the function to be broken up fewer times, thus allowing for the time taken for the calculation execution to dominate the timing scale
+However, in the linear case as the funtion requires such little time, each tick counter call will significantly effect the time taken for a run of the linear function
+	
+Question PS3: As there are more calls for the tick counter the timing gets more and more irregular for both the timing and plot given.
+	
+Question PS4: For linear time: 'n'
+For quadratic time 'n^2'
+		
+Question PS5: The code would return to running more like a quadratic function, however there would still be some irreguliarity in timing given by the function
+	
+Question A1:
+	
+Question A2:
+	
+Question A3:
+	
+Question A4:
+
+Question A5:
+
+Question A6:
+
+Question A7:
+	
+Question C1:
+
+Question C2:
+
+Question C3:
+	
+Question D1:
+	
+Question D2:
+
+	
+	

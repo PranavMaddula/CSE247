@@ -1,0 +1,147 @@
+-------------------
+CSE247 Robot tester starts testing hash on 2018-11-29 20:29:24 -0600
+
+========
+Testing in ./GradingRepos/repos/cse247-f18-students-pranav.maddula: hash as of 2018-11-03 00:05
+========
+Now in: /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-pranav.maddula
+Your branch is up to date with 'origin/master'.
+HEAD is now at 4a2cb29 Merge remote-tracking branch 'upstream/master'
+No local changes to save
+
+Updating 4a2cb29..d3b60b6
+Fast-forward
+ RoboGrade/hash-test.TestStringTable.txt        | 1035 ++++++++++++++++++++++++
+ labs/avl/AVLTree.java                          |  292 ++++---
+ labs/avl/validate/BSTValidator.java            |   78 +-
+ labs/hash/output/case4-observed.txt            |   38 +
+ labs/spath/ShortestPaths.java                  |  141 ++++
+ labs/spath/VertexAndDist.java                  |   43 +
+ labs/spath/graphs/DirectedGraph.java           |   54 ++
+ labs/spath/graphs/Edge.java                    |   22 +
+ labs/spath/graphs/Vertex.java                  |   60 ++
+ labs/spath/testing/GraphGenerator.java         |  290 +++++++
+ labs/spath/testing/GraphViz.java               |  277 +++++++
+ labs/spath/testing/TestShortestPath.java       |   76 ++
+ labs/spath/testing/TestShortestPathSilent.java |   59 ++
+ studiowriteups/studio10.txt                    |    2 +-
+ studiowriteups/studio11.txt                    |   53 ++
+ studiowriteups/studio13.txt                    |   85 ++
+ 16 files changed, 2445 insertions(+), 160 deletions(-)
+ create mode 100644 RoboGrade/hash-test.TestStringTable.txt
+ create mode 100644 labs/spath/ShortestPaths.java
+ create mode 100644 labs/spath/VertexAndDist.java
+ create mode 100644 labs/spath/graphs/DirectedGraph.java
+ create mode 100644 labs/spath/graphs/Edge.java
+ create mode 100644 labs/spath/graphs/Vertex.java
+ create mode 100644 labs/spath/testing/GraphGenerator.java
+ create mode 100644 labs/spath/testing/GraphViz.java
+ create mode 100644 labs/spath/testing/TestShortestPath.java
+ create mode 100644 labs/spath/testing/TestShortestPathSilent.java
+ create mode 100644 studiowriteups/studio11.txt
+ create mode 100644 studiowriteups/studio13.txt
+Going back in time to: 2018-11-03 00:05
+At hash 364f09df0c7a69dc779fa152e9e930301dff19c8
+
+Buildfile: /Users/puneetsachdeva/CSE247/cse247-support/build.xml
+
+copytest:
+     [echo] would copy from /Users/puneetsachdeva/CSE247/cse247-f18-students key pranav.maddula testfilesource test/TestStringTable package hash repo ./GradingRepos/repos/cse247-f18-students-pranav.maddula
+     [copy] Copying 1 file to /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-pranav.maddula/labs/hash/test
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Compiling the code
+Buildfile: /Users/puneetsachdeva/CSE247/cse247-support/build.xml
+
+compile:
+     [echo] Compiling hash/Record
+    [mkdir] Created dir: /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-pranav.maddula/bin
+    [javac] Compiling 1 source file to /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-pranav.maddula/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /Users/puneetsachdeva/CSE247/cse247-support/build.xml
+
+compile:
+     [echo] Compiling hash/StringTable
+    [javac] Compiling 1 source file to /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-pranav.maddula/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /Users/puneetsachdeva/CSE247/cse247-support/build.xml
+
+compile:
+     [echo] Compiling hash/test/TestStringTable
+    [javac] Compiling 1 source file to /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-pranav.maddula/bin
+    [javac] Note: /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-pranav.maddula/labs/hash/Main.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Running test test.TestStringTable
+Buildfile: /Users/puneetsachdeva/CSE247/cse247-support/build.xml
+
+test:
+    [junit] Running hash.test.TestStringTable
+    [junit] Testsuite: hash.test.TestStringTable
+    [junit] Testing DNA test case 1
+    [junit] Observed output for case1 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 2
+    [junit] Observed output for case2 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 3
+    [junit] Observed output for case3 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 4
+    [junit] Observed output for case4 matches expected output!
+    [junit] 
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.977 sec
+    [junit] Output:
+    [junit] Testing DNA test case 1
+    [junit] Observed output for case1 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 2
+    [junit] Observed output for case2 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 3
+    [junit] Observed output for case3 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 4
+    [junit] Observed output for case4 matches expected output!
+    [junit] 
+    [junit] 
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.977 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] Testing DNA test case 1
+    [junit] Observed output for case1 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 2
+    [junit] Observed output for case2 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 3
+    [junit] Observed output for case3 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 4
+    [junit] Observed output for case4 matches expected output!
+    [junit] 
+    [junit] ------------- ---------------- ---------------
+    [junit] 
+    [junit] Testcase: testDNA1 took 0.05 sec
+    [junit] Testcase: testDNA2 took 0.014 sec
+    [junit] Testcase: testDNA3 took 0.303 sec
+    [junit] Testcase: testDNA4 took 0.565 sec
+    [junit] Testcase: testFind took 0.019 sec
+    [junit] Testcase: testInit took 0 sec
+    [junit] Testcase: testDelete took 0.002 sec
+    [junit] Testcase: testInsert took 0.002 sec
+
+BUILD SUCCESSFUL
+Total time: 1 second
+================
+Lab is counted as working
+================
+
+CSE247 Robot tester ends testing hash on 2018-11-29 20:29:33 -0600
+-------------------

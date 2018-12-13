@@ -1,0 +1,66 @@
+Your TA's name:
+
+Students in your studio group:
+
+    Name        WUSTLKey (e.g. "jbuhler")
+	
+1. Pranav Maddula	 pranav.maddula
+2. Cheryl Kao		 cheryl.kao
+3. Annie Zhou		 annie.zhou
+4. Anthony Wu		 atwu
+5.
+6.
+
+Below each question, type in your short, to-the-point answers.
+
+Question A1:
+A:0
+B:4
+C:6
+D:13
+E:17
+F:9
+
+Question A2:
+A->B
+B->C
+B->F
+F->D
+F->E
+
+Question A3:
+A->F
+F->C
+C->B
+F->D
+D->E
+Total of 13
+
+Question B1:
+The other property that must be true, is that the algorithim terminates.
+
+Question B2:
+Every cycle pops an edge, thus with each cycle we pop an edge. Thus we know that each edge, e, cannot cause a cycle as each edge is popped once
+
+Question B3:
+We know that removing an edge leaves one cycle incomplete, which will leave an incomplete tree
+
+Question B4:
+As no final T is defined, we know that a fully cyclically complete T will span the whole graph
+
+Question C1:
+
+
+Question C2:
+
+Question C3:
+
+Question C4:
+
+Question D1:
+
+Question D2:
+
+Question D3:
+
+Question D4:

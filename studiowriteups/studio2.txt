@@ -1,0 +1,40 @@
+Your TA's name:
+
+Students in your studio group:
+
+    Name        WUSTLKey (e.g. "jbuhler")
+	
+1. Pranav Maddula pranav.maddula
+2. Anthony Wu 	  atwu
+3.
+4.
+5.
+6.
+
+Below each question, type in your short, to-the-point answers.
+
+Question A1:
+Both plots (ticks and time) are quadratic, however, the ticks curve has fewer irregulatities than the time curve
+Question A2:
+This is quadratic as for the addLast function, we go through the whole linked list for each new value, thus the plot is quadratic as per the following formula
+1+2+3+... = n(n-1)/2
+Question B1:
+We see a complexity of o(n) which is a linear line, as we are only adding n elements to the end of a list
+Question B2:
+An pointer to the tail value, which is 8 bytes
+Question B3:
+If the intent is to add to the end of the linked list (tail) then this implimentation is best, however, if we are to add to the start or the middle, we should not use a head reference as it makes the complexity higher than the origional implimentation
+Question C1:
+the formula should be 3n +3, which makes sense as there is an initilization cost (3) and a runtime cost of looping through the linked list of 3n
+Question C2:
+I just had the fucnction return the variable size, which has been incrimented at each new location link creation
+Question C3:
+As the size ++ counter is jsut a constant time event, we can safely assume that we have not increased the time complexity of any other runtime event, thus we can safely say that 
+Question D1:
+worst case of n/2 -> which is n complexity
+Question D2:
+we need to maintain an invariant equal to the value of n/2, where n is the lengh/size of the linked list
+Question D3:
+the complxity to do so would be o(n), as there would need to be a counter that at each add opperation would compare the old largest with the new value, and replace the saved value if the new one is older than the old one. - modulo function that incriments
+Question D4:
+The complexity of the deletion would change to n^2 in the worst case as one would have to delete the maximum value, causing one to have to read through the whole loop to find the next largest value by looping through the whole linked list
